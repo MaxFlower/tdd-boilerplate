@@ -2,7 +2,9 @@
   "name": "tdd-project",
   "version": "1.0.0",
   "keywords": ["es6", "babel", "jest", "tdd"],
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js",
     "test": "jest"
   },
   "dependencies": {},
